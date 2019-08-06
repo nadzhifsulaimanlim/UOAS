@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "727601519338",
+    "firebase_url": "https://uoas-3f9e2.firebaseio.com",
+    "project_id": "uoas-3f9e2",
+    "storage_bucket": "uoas-3f9e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727601519338:android:fc6ca3cf87e83294",
+        "android_client_info": {
+          "package_name": "com.apek.uoas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "727601519338-pp624pehh2ec811brr8rnvbqfse46kea.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.apek.uoas",
+            "certificate_hash": "78850aa8aae9b3b5e2a0e3a3703d8169f78f4790"
+          }
+        },
+        {
+          "client_id": "727601519338-7s5om518d1its5ege4sscgd05gf4ih4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhov_Ww6Rf4IRo6QLqaqGfbFaWHejvur4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "727601519338-7s5om518d1its5ege4sscgd05gf4ih4m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
