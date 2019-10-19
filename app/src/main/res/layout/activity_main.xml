@@ -24,9 +24,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:text="'Uber' Of Automotive System" />
+            android:text="'Uber' Of Automotive Services" />
 
         <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layout_name1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginLeft="10dp"
@@ -34,15 +35,17 @@
             android:layout_marginRight="10dp">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_text_name1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/name"
+                android:hint="@string/Email"
                 android:inputType="text"
                 android:singleLine="true" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layout_pw"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
@@ -50,6 +53,7 @@
             android:layout_marginRight="10dp">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_text_pw"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/password"
@@ -58,13 +62,60 @@
 
         </com.google.android.material.textfield.TextInputLayout>
 
-        <Button
-            android:layout_width="match_parent"
+        <LinearLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="10dp"
-            android:text="@string/login"
-            android:textAllCaps="false" />
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Login As User"
+                    android:textAllCaps="true" />
+
+
+                <Button
+                    android:id="@+id/button_signupuser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="18dp"
+                    android:text="Sign Up As User" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button_login1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Login As Service Provider"
+                    android:textAllCaps="true" />
+
+                <Button
+                    android:id="@+id/button_signupsp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="18dp"
+                    android:text="Sign Up As Service Provider" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
     </LinearLayout>
 </ScrollView>

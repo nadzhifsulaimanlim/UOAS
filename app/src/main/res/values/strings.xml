@@ -3,4 +3,19 @@
     <string name="password">Password</string>
     <string name="name">Name</string>
     <string name="login">Login</string>
+    <string name="Year">Year</string>
+    <string name="CarPlateNumber">CarPlateNumber</string>
+    <string name="Done">Done</string>
+    <string name="SignUp">Sign Up</string>
+    <string name="Email">Email</string>
+    <string name="carmodel">CarModel</string>
+    <string name="logout">Logout</string>
+    <string name="Company">Company Name</string>
+    <string name="contact">Contact</string>
+    <string name="address">Address</string>
+    <string name="description">Company Description</string>
+    <string name="map_key" translatable="false">AIzaSyAhov_Ww6Rf4IRo6QLqaqGfbFaWHejvur4</string>
+    <string name="user_location_permission_explanation" />
+    <string name="user_location_permission_not_granted" />
+    <string name="title_activity_maps">Map</string>
 </resources>
